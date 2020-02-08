@@ -1,13 +1,8 @@
-#This program will calculate a persons BMI.
-#This calculation is based of height and weight.
+x = 4
+x = 10
+out = (x<6) and (x>2)
 
-Weight = float (input("Enter Weight in kg: "))
-Height = float(input("Enter Height in cm: "))
+print(out)
 
-Heightcm2 = Height * Height
-
-Heightm2 = Heightcm2 / 10000
-
-BMI = Weight / Heightm2
-
-print("Your BMI is", BMI,)
+t = 5//2
+print(t)
