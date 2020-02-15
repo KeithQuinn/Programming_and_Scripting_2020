@@ -1,8 +1,8 @@
-day = input("Enter day: ")
+day = input("Enter day: ").lower()
 
-weekday = ["Monday", "monday", "Tuesday", "tuesday", "Wednesday", "wednesday", "Thursday", "thursday", "Friday", "friday"]
+weekday = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
-weekend = ["Saturday", "saturday", "Sunday", "sunday"]
+weekend = ["saturday", "sunday"]
 
 if day in weekday:
     print("Yes, unfortunately today is a weekday.")
