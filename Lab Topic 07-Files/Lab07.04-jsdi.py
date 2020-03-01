@@ -1,5 +1,5 @@
 import json
-filename = "testdict.json"
+filename = "testdict2.json"
 sample = dict(name = "Fred", age = 31, grades = [1, 34, 55])
 
 def writedict (obj):

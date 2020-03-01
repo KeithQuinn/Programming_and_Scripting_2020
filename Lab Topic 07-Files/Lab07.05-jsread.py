@@ -1,5 +1,5 @@
 import json
-filename = "testdict.json"
+filename = "testdict2.json"
 
 def readdict():
     with open(filename) as f:

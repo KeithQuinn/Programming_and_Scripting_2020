@@ -1,5 +1,16 @@
 students = []
 
+import json
+filename = "student results.json"
+sample = dict(name = "Fred", age = 31, grades = [1, 34, 55])
+def writedict (obj):
+    with open(filename, "wt") as f:
+        json.dump(obj,f)
+
+def readdict():
+    with open(filename) as f:
+        return json.load(f)
+
 def displaymenu():
     print("What would you like to do?")
     print("\t (a) Add new student")
@@ -33,11 +44,12 @@ def doView():
         displaymodules(currentstudent["modules"])
 
 def doSave():
-    print("In Saving")
+    writedict(students)
+    print("Students saved")
 
 def doLoad():
     global students
-    students = readDict()
+    students = readdict()
     print("Students Loaded")
 
 def displaymodules (modules):
