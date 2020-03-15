@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(1, 100, 100)
+y1 = x**2
+y2 = 2**x
+plt.plot(x, y1, "g.", label = "squared")
+plt.plot(x, y2, "r.", label = "exponential")
+plt.legend()
+plt.title("Hello")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.show()
+exit()
