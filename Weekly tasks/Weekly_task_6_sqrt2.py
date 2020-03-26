@@ -7,9 +7,9 @@ def fnPrime (x):
     return (2 * x)
 
 x = 1
-
+   
 for val in range(10):
     nextx = x - ((fn(x)) / (fnPrime(x)))
+    while (nextx/x) > 0.5:
+    x = nextx
     print(nextx)
-    #x = nextx
-print("The square root of", i, "is approx.",(round(x,1)))

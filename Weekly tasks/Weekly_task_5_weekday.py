@@ -1,13 +1,10 @@
-day = input("Enter day: ").lower()
+import datetime
 
-weekday = ["monday", "tuesday", "wednesday", "thursday", "friday"]
+day = (datetime.datetime.today().weekday())
+# Returns the day of the week as an integer, where Monday is 0 and Sunday is 6
+# Days less than or equal to 4 cover Monday to Friday inclusive
 
-weekend = ["saturday", "sunday"]
-
-if day in weekday:
-    print("Yes, unfortunately today is a weekday.")
+if day <= 4:
+    print("Got to work today, it's a weekday.")
 else:
-    if day in weekend:
-            print("It is the weekend, yay!")
-    else:
-        print("***error***")
+    print("Excellent, it's the weekend!")
