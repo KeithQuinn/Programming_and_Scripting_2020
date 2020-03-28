@@ -1,12 +1,6 @@
-from collections import Counter
-from string import ascii_lowercase
+# open txt file as doc, lower case all letters and count the number of e's.
 
-with open("Weekly_task_7_countes.txt") as b:
-        x = (Counter(letter for line in b
-                    for letter in line.lower()
-                    if letter == "e" in ascii_lowercase))
-
-lettercount = Counter(x)
-
-for letter in x:
-    print(lettercount[letter])
+with open("Weekly_task_7_countes.txt") as doc:
+    for line in doc:
+       line = line.lower()
+print(line.count("e"))
