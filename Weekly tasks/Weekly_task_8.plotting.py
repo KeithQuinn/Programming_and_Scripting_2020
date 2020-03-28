@@ -1,7 +1,12 @@
-# IPython log file
-import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+
+# The np.linspace() function in Python returns evenly spaced numbers over 
+# the specified interval which in this case is 40 numbers in range 0-4.
+# plt.plot is plotting the variables, included are colour and labels
+# title and x and y labels along with a legend and save file.
+# the plot then shows for 5 seconds and code ends 
+
 x = np.linspace(0.0, 4.0, 40)
 g = x**2
 h = x**3
