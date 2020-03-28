@@ -76,8 +76,10 @@ https://stackoverflow.com/questions/59762315/plotting-multiple-variables-in-matp
 https://matplotlib.org/tutorials/introductory/pyplot.html
 
 # Conclusion
-These weekly tasks were brilliant, some of them took hours to figure out and after hours you end up with two lines of code! I felt the tasks were perfect, they were difficult enough that I could spend hours figuring them out but not too difficult as I was able to figure them out, eventually. The tasks emcompassed much of the python language, if, for, while, count, read, etc. so that was great.
+These weekly tasks were brilliant, some of them took hours to figure out and after hours you end up with two lines of code! I felt the tasks were perfect, they were difficult enough that I could spend hours figuring them out but not too difficult as I was able to figure them out, eventually. The tasks included much of the python language; if, else, elif, for, while, count, read, float, str, int, def, etc. so that was great.
 
-What was also excellent was Andrew taking the time to review and provide feedback. I really enjoyed going back to the tasks armed with Andrew's feedback and also the knowledge gained throughout the semester and tidying up the code making it more readable and more efficient. I spent quiet a significant amount of time on these tasks but in the end I feel that the time was well spent as I have a decent understanding of the Python language.
+Another excellent part of the weekly tasks was Andrew taking the time to review and provide feedback. I really enjoyed going back to the tasks armed with Andrew's feedback and also the knowledge gained throughout the semester and tidying up the code making it more readable and more efficient. I spent quiet a significant amount of time on these tasks but in the end I feel that the time was well spent as I have a decent understanding of the Python language.
 
-The lab topics that Andrew went through were also a great addition to the course. For me the only way to learn this is to get stuck into it, so it was great having not only the weekly tasks to work on but also the labs. Now I'll take all these learnigns and apply them to the project to finish out the Programming and Scriping module, a module which I found challenging but thoroughly enjoyable, thanks.
+Finally, the lab topics that Andrew went through were a great part of the course. For me the only way to learn this is to get stuck into it, so not only having the weekly tasks to work on but also the lab topics was brilliant.
+
+The plan now is to take all these learnings and apply them to the project to finish out the Programming and Scriping module, a module which I found challenging but thoroughly enjoyable, thanks.
